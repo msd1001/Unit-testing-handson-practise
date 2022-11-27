@@ -1,5 +1,5 @@
 import { html, fixture, expect } from '@open-wc/testing';
-import Sinon, { stub } from 'sinon';
+import Sinon, { stub } from 'sinon';  
 import '../src/LoanEMIDetails/LoanEMIDetails.js';
 
 const el = await fixture(html`<loanemi-details></loanemi-details>`);
